@@ -1,0 +1,22 @@
+# Python virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Test and coverage artifacts
+.pytest_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+allure-results/
+allure-report/
+
+# IDE files
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
