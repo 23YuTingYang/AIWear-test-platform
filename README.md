@@ -45,7 +45,7 @@ UI 自动化测试工程与页面测试用例。
 - Python
 - Pytest
 - Requests
-- Playwright / Selenium
+- Selenium
 - JMeter
 
 ## 项目价值
