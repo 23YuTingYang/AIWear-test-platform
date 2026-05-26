@@ -1,8 +1,10 @@
 # AIWear Test Platform
 
 AIWear Test Platform 是一个面向 AIWear 项目的统一测试仓库，集中管理功能测试、接口自动化、UI 自动化和接口性能测试四类测试资产。
--完整测试报告: https://my.feishu.cn/wiki/US6KwL5O7iFGDHkpLE3cfhuOnhb
--项目访问链接: http://139.199.222.234
+
+完整测试报告: https://my.feishu.cn/wiki/US6KwL5O7iFGDHkpLE3cfhuOnhb
+
+项目访问链接: http://139.199.222.234
 
 ## 项目简介
 
