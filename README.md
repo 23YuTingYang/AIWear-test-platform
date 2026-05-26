@@ -8,8 +8,6 @@ AIWear Test Platform 是一个面向 AIWear 项目的统一测试仓库，集中
 
 账号: Yang  密码: Yyt1112
 
-测试账号: 
-
 ## 项目简介
 
 本仓库用于统一展示 AIWear 项目的测试实践，覆盖以下方向：
