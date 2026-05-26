@@ -1,0 +1,295 @@
+upload_image:
+  - id: upload_person_success
+    name: 上传人物图成功
+    auth: yang
+    file_key: person_female
+    expect_code: 200
+    expect_keys: ["url", "fileName", "fileSize"]
+  - id: upload_cloth_success
+    name: 上传服装图成功
+    auth: yang
+    file_key: cloth_blue
+    expect_code: 200
+    expect_keys: ["url", "fileName", "fileSize"]
+  - id: upload_empty_file
+    name: 空文件上传失败
+    auth: yang
+    file_key: empty_file
+    expect_code: 400
+    expect_message: "图片文件不能为空"
+  - id: upload_missing_file
+    name: 缺少文件参数
+    auth: yang
+    send_file: false
+    expect_code: 400
+    expect_message: "图片文件不能为空"
+  - id: upload_animal
+    name: 上传非人物非服装
+    auth: yang
+    file_key: animal
+    expect_code: 400
+    expect_message: "图片审核不通过,图片不是人物或服装"
+  - id: upload_missing_auth
+    name: 缺少 Authorization
+    file_key: person_female
+    auth_mode: none
+    expect_code: 400
+    expect_message: "缺少请求头令牌"
+  - id: upload_invalid_auth
+    name: Authorization 格式错误
+    file_key: person_female
+    auth_mode: invalid_format
+    expect_code: 400
+    expect_message: "请求头令牌格式错误"
+  - id: upload_repeat
+    name: 重复上传同一图片
+    auth: yang
+    file_key: person_female
+    repeat_upload: true
+    expect_code: 200
+    expect_keys: ["url", "fileName", "fileSize"]
+  - id: upload_octet_stream
+    name: MIME 异常但内容正常
+    auth: yang
+    file_key: person_female
+    content_type: "application/octet-stream"
+    expect_code: 200
+    expect_keys: ["url", "fileName", "fileSize"]
+  - id: upload_fake_jpg
+    name: 非图片内容伪装上传
+    auth: yang
+    file_key: fake_jpg
+    expect_code: 400
+    expect_message: "图片审核不通过,图片不是人物或服装"
+
+my_images:
+  - id: my_images_yang
+    name: Yang 查询自己的图片列表
+    auth: yang
+    expect_code: 200
+  - id: my_images_xiao
+    name: Xiao 查询自己的图片列表
+    auth: xiao
+    expect_code: 200
+  - id: my_images_new_user_empty
+    name: 首次用户无图片
+    auth: new_user
+    expect_code: 200
+    expect_empty: true
+  - id: my_images_missing_auth
+    name: 缺少 Authorization
+    auth_mode: none
+    expect_code: 400
+    expect_message: "缺少请求头令牌"
+  - id: my_images_invalid_auth
+    name: Authorization 格式错误
+    auth_mode: invalid_format
+    expect_code: 400
+    expect_message: "请求头令牌格式错误"
+
+search:
+  - id: search_by_text
+    name: 文搜图成功
+    auth: yang
+    mode: query
+    query: "红色短袖"
+    expect_code: 200
+  - id: search_by_image
+    name: 图搜图成功
+    auth: yang
+    mode: file
+    file_key: cloth_red
+    expect_code: 200
+  - id: search_no_query_no_file
+    name: query 和 file 同时为空
+    auth: yang
+    mode: empty
+    expect_code: 200
+    expect_empty: true
+  - id: search_empty_query
+    name: query 为空字符串
+    auth: yang
+    mode: query
+    query: ""
+    expect_code: 200
+    expect_empty: true
+  - id: search_long_query
+    name: 超长 query
+    auth: yang
+    mode: query
+    query: "超长字符串超长字符串超长字符串超长字符串超长字符串超长字符串"
+    expect_code: 200
+  - id: search_empty_file
+    name: file 为空文件
+    auth: yang
+    mode: file
+    file_key: empty_file
+    expect_code: 200
+    expect_empty: true
+  - id: search_missing_auth
+    name: 缺少 Authorization
+    auth_mode: none
+    mode: query
+    query: "红色短袖"
+    expect_code: 400
+    expect_message: "缺少请求头令牌"
+  - id: search_invalid_auth
+    name: Authorization 格式错误
+    auth_mode: invalid_format
+    mode: query
+    query: "红色短袖"
+    expect_code: 400
+    expect_message: "请求头令牌格式错误"
+  - id: search_user_isolation
+    name: 用户隔离验证
+    auth: xiao
+    mode: query
+    query: "红色短袖"
+    expect_code: 200
+    expect_not_contains_context_key: yang_cloth_red_url
+
+edit:
+  - id: edit_success
+    name: 正常编辑自己的图片
+    auth: yang
+    image_ref: yang_person_url
+    instruction: "把上衣改成蓝色短袖"
+    expect_code: 200
+    expect_keys: ["url", "saveUrl"]
+  - id: edit_empty_image
+    name: image 为空
+    auth: yang
+    image: ""
+    instruction: "改蓝色"
+    expect_code: 400
+    expect_message: "图片不能为空"
+  - id: edit_empty_instruction
+    name: instruction 为空
+    auth: yang
+    image_ref: yang_person_url
+    instruction: ""
+    expect_code: 400
+    expect_message: "编辑图片的指令不能为空"
+  - id: edit_missing_image
+    name: 缺少 image 字段
+    auth: yang
+    omit_image: true
+    instruction: "改蓝色"
+    expect_code: 400
+    expect_message: "图片不能为空"
+  - id: edit_missing_instruction
+    name: 缺少 instruction 字段
+    auth: yang
+    image_ref: yang_person_url
+    omit_instruction: true
+    expect_code: 400
+    expect_message: "编辑图片的指令不能为空"
+  - id: edit_other_user_image
+    name: 编辑他人图片失败
+    auth: xiao
+    image_ref: yang_person_url
+    instruction: "改红色"
+    expect_code: 400
+    expect_message: "无权限编辑此图片,只能编辑自己上传的图片"
+  - id: edit_invalid_url
+    name: 非法 URL
+    auth: yang
+    image: "not-a-url"
+    instruction: "改蓝色"
+    expect_code: 400
+  - id: edit_long_instruction
+    name: 超长 instruction
+    auth: yang
+    image_ref: yang_person_url
+    instruction: "把衣服改成蓝色短袖并保持人物动作、背景和比例不变，把边缘细节处理自然，颜色一致，文本尽量详细一些以覆盖长指令边界场景"
+    expect_code: 200
+    expect_keys: ["url", "saveUrl"]
+  - id: edit_missing_auth
+    name: 缺少 Authorization
+    auth_mode: none
+    image_ref: yang_person_url
+    instruction: "改蓝色"
+    expect_code: 400
+    expect_message: "缺少请求头令牌"
+
+merge:
+  - id: merge_success
+    name: 正常合并自己的图片
+    auth: yang
+    image1_ref: yang_person_url
+    image2_ref: yang_cloth_blue_url
+    instruction: "把第二张衣服穿到第一张人物身上"
+    expect_code: 200
+    expect_keys: ["url", "saveUrl"]
+  - id: merge_empty_image1
+    name: image1 为空
+    auth: yang
+    image1: ""
+    image2_ref: yang_cloth_blue_url
+    instruction: "merge"
+    expect_code: 400
+    expect_message: "图片1不能为空"
+  - id: merge_empty_image2
+    name: image2 为空
+    auth: yang
+    image1_ref: yang_person_url
+    image2: ""
+    instruction: "merge"
+    expect_code: 400
+    expect_message: "图片2不能为空"
+  - id: merge_empty_instruction
+    name: instruction 为空
+    auth: yang
+    image1_ref: yang_person_url
+    image2_ref: yang_cloth_blue_url
+    instruction: ""
+    expect_code: 400
+    expect_message: "合并指令不能为空"
+  - id: merge_missing_instruction
+    name: 缺少 instruction 字段
+    auth: yang
+    image1_ref: yang_person_url
+    image2_ref: yang_cloth_blue_url
+    omit_instruction: true
+    expect_code: 400
+    expect_message: "合并指令不能为空"
+  - id: merge_missing_image1
+    name: 缺少 image1 字段
+    auth: yang
+    omit_image1: true
+    image2_ref: yang_cloth_blue_url
+    instruction: "merge"
+    expect_code: 400
+    expect_message: "图片1不能为空"
+  - id: merge_missing_image2
+    name: 缺少 image2 字段
+    auth: yang
+    image1_ref: yang_person_url
+    omit_image2: true
+    instruction: "merge"
+    expect_code: 400
+    expect_message: "图片2不能为空"
+  - id: merge_other_user_images
+    name: 合并他人图片失败
+    auth: xiao
+    image1_ref: yang_person_url
+    image2_ref: yang_cloth_blue_url
+    instruction: "merge"
+    expect_code: 400
+    expect_message: "只能合并自己上传的图片"
+  - id: merge_cross_user_images
+    name: 混合两用户图片失败
+    auth: yang
+    image1_ref: yang_person_url
+    image2_ref: xiao_person_url
+    instruction: "merge"
+    expect_code: 400
+    expect_message: "只能合并自己上传的图片"
+  - id: merge_missing_auth
+    name: 缺少 Authorization
+    auth_mode: none
+    image1_ref: yang_person_url
+    image2_ref: yang_cloth_blue_url
+    instruction: "merge"
+    expect_code: 400
+    expect_message: "缺少请求头令牌"

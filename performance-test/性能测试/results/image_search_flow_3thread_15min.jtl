@@ -1,0 +1,265 @@
+﻿timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1779338981689,132,01 登录认证,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,459,266,1,1,http://your-server-host/api/user/auth,131,0,16
+1779338982411,2595,02 上传人物图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,369,20382,1,1,http://your-server-host/api/file/upload/image,2595,0,0
+1779338985020,19807,03 上传服装图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,371,1414766,1,1,http://your-server-host/api/file/upload/image,19807,0,0
+1779339004839,37,04 查询我的图片,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,69327,363,1,1,http://your-server-host/api/file/my-images,21,0,0
+1779339004883,2388,05 图搜图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,2972,20361,1,1,http://your-server-host/api/file/search,2388,0,0
+1779339021590,145,01 登录认证,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,459,266,2,2,http://your-server-host/api/user/auth,145,0,4
+1779339021737,2488,02 上传人物图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,369,20388,2,2,http://your-server-host/api/file/upload/image,2488,0,0
+1779339007271,29161,06 图片编辑,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,555,529,2,2,http://your-server-host/api/file/edit,29161,0,0
+1779339024228,29120,03 上传服装图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,371,1414760,2,2,http://your-server-host/api/file/upload/image,29120,0,0
+1779339053350,39,04 查询我的图片,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,69695,363,2,2,http://your-server-host/api/file/my-images,21,0,0
+1779339053391,2502,05 图搜图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,3125,20352,2,2,http://your-server-host/api/file/search,2502,0,0
+1779339061579,139,01 登录认证,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,459,266,3,3,http://your-server-host/api/user/auth,139,0,2
+1779339061720,2326,02 上传人物图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,369,20382,3,3,http://your-server-host/api/file/upload/image,2326,0,0
+1779339036433,38131,07 图片合并,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,555,639,3,3,http://your-server-host/api/file/merge,38131,0,0
+1779339055893,19533,06 图片编辑,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,553,529,3,3,http://your-server-host/api/file/edit,19533,0,0
+1779339074566,3048,08 查询历史记录,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,112814,358,3,3,http://your-server-host/api/record/my,1525,0,1
+1779339077624,108,01 登录认证,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,459,430,3,3,http://your-server-host/api/user/auth,108,0,1
+1779339077733,5263,02 上传人物图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,369,20379,3,3,http://your-server-host/api/file/upload/image,5263,0,0
+1779339082996,27595,03 上传服装图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,371,1414757,3,3,http://your-server-host/api/file/upload/image,27594,0,0
+1779339110592,40,04 查询我的图片,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,70242,363,3,3,http://your-server-host/api/file/my-images,22,0,0
+1779339110633,2533,05 图搜图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,3431,20376,3,3,http://your-server-host/api/file/search,2533,0,0
+1779339075427,40413,07 图片合并,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,553,639,3,3,http://your-server-host/api/file/merge,40413,0,0
+1779339115841,970,08 查询历史记录,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,114313,358,3,3,http://your-server-host/api/record/my,263,0,1
+1779339116813,109,01 登录认证,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,459,430,3,3,http://your-server-host/api/user/auth,109,0,1
+1779339116923,2419,02 上传人物图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,369,20388,3,3,http://your-server-host/api/file/upload/image,2419,0,0
+1779339064049,60089,03 上传服装图,504,Gateway Time-out,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[504]]]
+
+****** comparison: [[[200]]]
+
+/",329,1414778,3,3,http://your-server-host/api/file/upload/image,60088,0,0
+1779339124143,67,04 查询我的图片,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,70413,363,3,3,http://your-server-host/api/file/my-images,36,0,1
+1779339124211,10026,05 图搜图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,3584,20361,3,3,http://your-server-host/api/file/search,10026,0,0
+1779339134238,3577,06 图片编辑,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,false,"Value in json path '$.code' expected to be '200', but found '500'",244,529,3,3,http://your-server-host/api/file/edit,3577,0,0
+1779339137816,34,07 图片合并,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,568,3,3,http://your-server-host/api/file/merge,34,0,0
+1779339137850,1450,08 查询历史记录,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,114314,358,3,3,http://your-server-host/api/record/my,27,0,0
+1779339139302,109,01 登录认证,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,459,430,3,3,http://your-server-host/api/user/auth,109,0,1
+1779339119344,29806,03 上传服装图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,371,1414766,3,3,http://your-server-host/api/file/upload/image,29806,0,0
+1779339149152,79,04 查询我的图片,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,70767,363,3,3,http://your-server-host/api/file/my-images,63,0,0
+1779339139413,9991,02 上传人物图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,369,20367,3,3,http://your-server-host/api/file/upload/image,9991,0,0
+1779339149232,3982,05 图搜图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,3737,20352,3,3,http://your-server-host/api/file/search,3982,0,0
+1779339113169,43203,06 图片编辑,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,557,529,3,3,http://your-server-host/api/file/edit,43203,0,0
+1779339153217,16318,06 图片编辑,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,548,529,3,3,http://your-server-host/api/file/edit,16318,0,0
+1779339149405,39633,03 上传服装图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,371,1414763,3,3,http://your-server-host/api/file/upload/image,39633,0,0
+1779339189040,354,04 查询我的图片,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,71119,363,3,3,http://your-server-host/api/file/my-images,22,0,0
+1779339156373,35160,07 图片合并,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,553,639,3,3,http://your-server-host/api/file/merge,35160,0,2
+1779339191534,2345,08 查询历史记录,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,116547,358,3,3,http://your-server-host/api/record/my,895,0,0
+1779339193880,108,01 登录认证,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,459,430,3,3,http://your-server-host/api/user/auth,108,0,1
+1779339189395,5855,05 图搜图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,3737,20370,3,3,http://your-server-host/api/file/search,5854,0,0
+1779339193989,3147,02 上传人物图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20361,3,3,http://your-server-host/api/file/upload/image,3147,0,0
+1779339195249,2714,06 图片编辑,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,false,"Value in json path '$.code' expected to be '200', but found '500'",244,529,3,3,http://your-server-host/api/file/edit,2714,0,0
+1779339169536,38461,07 图片合并,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,559,639,3,3,http://your-server-host/api/file/merge,38461,0,0
+1779339207998,1140,08 查询历史记录,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,117289,358,3,3,http://your-server-host/api/record/my,272,0,1
+1779339209140,111,01 登录认证,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,459,430,3,3,http://your-server-host/api/user/auth,111,0,1
+1779339209253,4821,02 上传人物图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,369,20379,3,3,http://your-server-host/api/file/upload/image,4820,0,0
+1779339197139,28978,03 上传服装图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,371,1414772,3,3,http://your-server-host/api/file/upload/image,28978,0,0
+1779339226118,49,04 查询我的图片,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,71502,363,3,3,http://your-server-host/api/file/my-images,28,0,0
+1779339226168,2161,05 图搜图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,3890,20373,3,3,http://your-server-host/api/file/search,2127,0,0
+1779339228329,2869,06 图片编辑,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,3,3,http://your-server-host/api/file/edit,2869,0,0
+1779339231198,929,07 图片合并,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,569,3,3,http://your-server-host/api/file/merge,929,0,0
+1779339232128,1320,08 查询历史记录,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,117289,358,3,3,http://your-server-host/api/record/my,1229,0,0
+1779339233449,109,01 登录认证,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,459,430,3,3,http://your-server-host/api/user/auth,109,0,1
+1779339233559,6929,02 上传人物图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,369,20367,3,3,http://your-server-host/api/file/upload/image,6929,0,0
+1779339197965,51215,07 图片合并,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,555,639,3,3,http://your-server-host/api/file/merge,51215,0,0
+1779339249180,1047,08 查询历史记录,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,118079,358,3,3,http://your-server-host/api/record/my,703,0,1
+1779339250229,108,01 登录认证,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,459,430,3,3,http://your-server-host/api/user/auth,108,0,1
+1779339214075,43203,03 上传服装图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,371,1414763,3,3,http://your-server-host/api/file/upload/image,43203,0,0
+1779339257281,42,04 查询我的图片,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,71855,363,3,3,http://your-server-host/api/file/my-images,24,0,0
+1779339250338,7754,02 上传人物图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,369,20382,3,3,http://your-server-host/api/file/upload/image,7754,0,0
+1779339257324,4904,05 图搜图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,4050,20355,3,3,http://your-server-host/api/file/search,4687,0,0
+1779339262228,22125,06 图片编辑,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,557,529,3,3,http://your-server-host/api/file/edit,22125,0,0
+1779339258095,32876,03 上传服装图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,371,1414763,3,3,http://your-server-host/api/file/upload/image,32876,0,0
+1779339290971,753,04 查询我的图片,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,72223,363,3,3,http://your-server-host/api/file/my-images,286,0,0
+1779339291724,5038,05 图搜图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,4203,20370,3,3,http://your-server-host/api/file/search,4829,0,0
+1779339240490,61458,03 上传服装图,504,Gateway Time-out,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[504]]]
+
+****** comparison: [[[200]]]
+
+/",329,1414781,3,3,http://your-server-host/api/file/upload/image,61458,0,0
+1779339301951,2316,04 查询我的图片,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,72251,363,3,3,http://your-server-host/api/file/my-images,1620,0,2
+1779339304268,5222,05 图搜图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,4203,20370,3,3,http://your-server-host/api/file/search,5010,0,0
+1779339296764,18084,06 图片编辑,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,553,529,3,3,http://your-server-host/api/file/edit,18084,0,0
+1779339314849,1538,07 图片合并,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,false,"Value in json path '$.code' expected to be '200', but found '500'",244,639,3,3,http://your-server-host/api/file/merge,1537,0,1
+1779339316387,294,08 查询历史记录,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,119486,358,3,3,http://your-server-host/api/record/my,31,0,0
+1779339316683,107,01 登录认证,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,459,430,3,3,http://your-server-host/api/user/auth,107,0,0
+1779339284355,37063,07 图片合并,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,553,639,3,3,http://your-server-host/api/file/merge,37063,0,1
+1779339316791,5107,02 上传人物图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,369,20361,3,3,http://your-server-host/api/file/upload/image,5107,0,0
+1779339321418,1795,08 查询历史记录,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,120330,358,3,3,http://your-server-host/api/record/my,872,0,0
+1779339323215,140,01 登录认证,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,459,430,3,3,http://your-server-host/api/user/auth,140,0,1
+1779339323356,6608,02 上传人物图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,369,20358,3,3,http://your-server-host/api/file/upload/image,6608,0,0
+1779339309491,26491,06 图片编辑,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,555,529,3,3,http://your-server-host/api/file/edit,26491,0,0
+1779339335982,272,07 图片合并,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,568,3,3,http://your-server-host/api/file/merge,272,0,0
+1779339336255,2032,08 查询历史记录,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,121047,358,3,3,http://your-server-host/api/record/my,767,0,0
+1779339338289,113,01 登录认证,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,459,430,3,3,http://your-server-host/api/user/auth,113,0,1
+1779339338404,1780,02 上传人物图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20388,3,3,http://your-server-host/api/file/upload/image,1780,0,0
+1779339321898,33831,03 上传服装图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,371,1414754,3,3,http://your-server-host/api/file/upload/image,33831,0,0
+1779339355731,1537,04 查询我的图片,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,72977,363,3,3,http://your-server-host/api/file/my-images,275,0,0
+1779339357269,15612,05 图搜图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,4503,20355,3,3,http://your-server-host/api/file/search,15612,0,0
+1779339329964,49163,03 上传服装图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,371,1414769,3,3,http://your-server-host/api/file/upload/image,49163,0,0
+1779339379129,49,04 查询我的图片,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,73108,363,3,3,http://your-server-host/api/file/my-images,28,0,0
+1779339379179,7298,05 图搜图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,4509,20358,3,3,http://your-server-host/api/file/search,7298,0,0
+1779339340185,52235,03 上传服装图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,371,1414751,3,3,http://your-server-host/api/file/upload/image,52235,0,0
+1779339392422,121,04 查询我的图片,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,73281,363,3,3,http://your-server-host/api/file/my-images,24,0,0
+1779339372881,23653,06 图片编辑,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,557,529,3,3,http://your-server-host/api/file/edit,23653,0,0
+1779339392544,6280,05 图搜图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,4509,20358,3,3,http://your-server-host/api/file/search,5665,0,0
+1779339398826,300,06 图片编辑,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,3,3,http://your-server-host/api/file/edit,300,0,1
+1779339399127,25,07 图片合并,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,569,3,3,http://your-server-host/api/file/merge,25,0,0
+1779339399152,1423,08 查询历史记录,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,121726,358,3,3,http://your-server-host/api/record/my,471,0,0
+1779339400578,113,01 登录认证,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,459,430,3,3,http://your-server-host/api/user/auth,112,0,1
+1779339386477,16829,06 图片编辑,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,false,"Value in json path '$.code' expected to be '200', but found '500'",244,529,3,3,http://your-server-host/api/file/edit,16829,0,2
+1779339400692,4656,02 上传人物图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,369,20379,3,3,http://your-server-host/api/file/upload/image,4656,0,0
+1779339405349,31322,03 上传服装图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,371,1414775,3,3,http://your-server-host/api/file/upload/image,31322,0,0
+1779339436672,107,04 查询我的图片,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,73648,363,3,3,http://your-server-host/api/file/my-images,28,0,0
+1779339436780,4853,05 图搜图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,4662,20379,3,3,http://your-server-host/api/file/search,4234,0,0
+1779339396535,48266,07 图片合并,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,553,639,3,3,http://your-server-host/api/file/merge,48266,0,1
+1779339403307,41689,07 图片合并,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,557,639,3,3,http://your-server-host/api/file/merge,41689,0,0
+1779339444803,1701,08 查询历史记录,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,122513,358,3,3,http://your-server-host/api/record/my,924,0,0
+1779339446507,108,01 登录认证,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,459,430,3,3,http://your-server-host/api/user/auth,108,0,1
+1779339444997,2653,08 查询历史记录,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,123293,358,3,3,http://your-server-host/api/record/my,2386,0,0
+1779339447651,110,01 登录认证,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,459,430,3,3,http://your-server-host/api/user/auth,110,0,1
+1779339446617,3422,02 上传人物图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,369,20376,3,3,http://your-server-host/api/file/upload/image,3422,0,0
+1779339447762,3094,02 上传人物图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,369,20382,3,3,http://your-server-host/api/file/upload/image,3094,0,0
+1779339441634,30158,06 图片编辑,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,553,529,3,3,http://your-server-host/api/file/edit,30158,0,0
+1779339450041,44915,03 上传服装图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,371,1414775,3,3,http://your-server-host/api/file/upload/image,44915,0,0
+1779339494956,1090,04 查询我的图片,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,74211,363,3,3,http://your-server-host/api/file/my-images,36,0,0
+1779339450857,48145,03 上传服装图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,371,1414757,3,3,http://your-server-host/api/file/upload/image,48145,0,0
+1779339499003,1623,04 查询我的图片,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,74369,363,3,3,http://your-server-host/api/file/my-images,1604,0,0
+1779339496047,4598,05 图搜图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,4968,20367,3,3,http://your-server-host/api/file/search,3979,0,0
+1779339500627,3398,05 图搜图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,4962,20379,3,3,http://your-server-host/api/file/search,3398,0,0
+1779339500648,18012,06 图片编辑,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,553,529,3,3,http://your-server-host/api/file/edit,18012,0,0
+1779339471792,48538,07 图片合并,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,555,639,3,3,http://your-server-host/api/file/merge,48538,0,1
+1779339520330,1149,08 查询历史记录,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,125511,358,3,3,http://your-server-host/api/record/my,436,0,0
+1779339521481,139,01 登录认证,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,459,430,3,3,http://your-server-host/api/user/auth,139,0,0
+1779339504026,22059,06 图片编辑,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,553,529,3,3,http://your-server-host/api/file/edit,22059,0,0
+1779339521621,4701,02 上传人物图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,369,20367,3,3,http://your-server-host/api/file/upload/image,4701,0,0
+1779339526324,30992,03 上传服装图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,371,1414769,3,3,http://your-server-host/api/file/upload/image,30992,0,0
+1779339557318,103,04 查询我的图片,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,74737,363,3,3,http://your-server-host/api/file/my-images,21,0,0
+1779339557423,3116,05 图搜图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,5115,20370,3,3,http://your-server-host/api/file/search,3116,0,0
+1779339560539,494,06 图片编辑,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '500'",244,529,3,3,http://your-server-host/api/file/edit,494,0,0
+1779339526086,35021,07 图片合并,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,false,"Value in json path '$.code' expected to be '200', but found '500'",244,639,3,3,http://your-server-host/api/file/merge,35021,0,1
+1779339561107,1896,08 查询历史记录,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,126244,358,3,3,http://your-server-host/api/record/my,277,0,0
+1779339563006,111,01 登录认证,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,459,430,3,3,http://your-server-host/api/user/auth,111,0,1
+1779339518660,47091,07 图片合并,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,553,639,3,3,http://your-server-host/api/file/merge,47091,0,1
+1779339565753,1571,08 查询历史记录,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,126974,358,3,3,http://your-server-host/api/record/my,488,0,0
+1779339567325,113,01 登录认证,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,459,430,3,3,http://your-server-host/api/user/auth,113,0,1
+1779339563119,5615,02 上传人物图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,369,20376,3,3,http://your-server-host/api/file/upload/image,5615,0,0
+1779339567439,4128,02 上传人物图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,369,20361,3,3,http://your-server-host/api/file/upload/image,4128,0,0
+1779339568735,25629,03 上传服装图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414757,3,3,http://your-server-host/api/file/upload/image,25629,0,0
+1779339594366,39,04 查询我的图片,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,75095,363,3,3,http://your-server-host/api/file/my-images,20,0,0
+1779339594406,3272,05 图搜图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,5427,20361,3,3,http://your-server-host/api/file/search,3061,0,0
+1779339571569,36405,03 上传服装图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,371,1414757,3,3,http://your-server-host/api/file/upload/image,36405,0,0
+1779339607975,91,04 查询我的图片,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,75283,363,3,3,http://your-server-host/api/file/my-images,25,0,0
+1779339608067,4017,05 图搜图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,5427,20373,3,3,http://your-server-host/api/file/search,3191,0,0
+1779339597678,18770,06 图片编辑,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,false,"Value in json path '$.code' expected to be '200', but found '500'",244,529,3,3,http://your-server-host/api/file/edit,18770,0,0
+1779339616447,23,07 图片合并,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,568,3,3,http://your-server-host/api/file/merge,22,0,0
+1779339616470,1132,08 查询历史记录,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,127040,358,3,3,http://your-server-host/api/record/my,29,0,0
+1779339617604,146,01 登录认证,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,459,430,3,3,http://your-server-host/api/user/auth,146,0,1
+1779339561033,60225,07 图片合并,504,Gateway Time-out,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[504]]]
+
+****** comparison: [[[200]]]
+
+/",329,639,3,3,http://your-server-host/api/file/merge,60225,0,0
+1779339621259,1027,08 查询历史记录,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,127814,358,3,3,http://your-server-host/api/record/my,257,0,0
+1779339622288,119,01 登录认证,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,459,430,3,3,http://your-server-host/api/user/auth,119,0,0
+1779339617753,5288,02 上传人物图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,369,20388,3,3,http://your-server-host/api/file/upload/image,5288,0,0
+1779339622408,4980,02 上传人物图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,369,20382,3,3,http://your-server-host/api/file/upload/image,4980,0,0
+1779339612085,24048,06 图片编辑,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,555,529,3,3,http://your-server-host/api/file/edit,24048,0,0
+1779339623044,40772,03 上传服装图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,371,1414766,3,3,http://your-server-host/api/file/upload/image,40772,0,0
+1779339663818,572,04 查询我的图片,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,75830,363,3,3,http://your-server-host/api/file/my-images,259,0,0
+1779339664391,5224,05 图搜图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,5733,20355,3,3,http://your-server-host/api/file/search,4823,0,0
+1779339627391,46756,03 上传服装图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,371,1414769,3,3,http://your-server-host/api/file/upload/image,46756,0,0
+1779339674147,110,04 查询我的图片,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,75996,363,3,3,http://your-server-host/api/file/my-images,24,0,0
+1779339674258,4040,05 图搜图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,5733,20358,3,3,http://your-server-host/api/file/search,3421,0,0
+1779339678300,1540,06 图片编辑,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '500'",244,529,3,3,http://your-server-host/api/file/edit,1540,0,0
+1779339636134,44512,07 图片合并,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,553,639,3,3,http://your-server-host/api/file/merge,44512,0,1
+1779339680647,1336,08 查询历史记录,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,129289,358,3,3,http://your-server-host/api/record/my,560,0,0
+1779339681985,114,01 登录认证,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,459,430,3,3,http://your-server-host/api/user/auth,114,0,4
+1779339669616,16558,06 图片编辑,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,553,529,3,3,http://your-server-host/api/file/edit,16558,0,0
+1779339682100,6292,02 上传人物图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,369,20373,3,3,http://your-server-host/api/file/upload/image,6292,0,0
+1779339679841,31071,07 图片合并,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,548,639,3,3,http://your-server-host/api/file/merge,31071,0,0
+1779339710913,4650,08 查询历史记录,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,130794,358,3,3,http://your-server-host/api/record/my,910,0,0
+1779339715563,1321,01 登录认证,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,459,430,3,3,http://your-server-host/api/user/auth,1321,0,1
+1779339716885,1602,02 上传人物图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20382,3,3,http://your-server-host/api/file/upload/image,1602,0,0
+1779339688393,34184,03 上传服装图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,371,1414763,3,3,http://your-server-host/api/file/upload/image,34184,0,0
+1779339686175,38932,07 图片合并,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,553,639,3,3,http://your-server-host/api/file/merge,38932,0,2
+1779339722578,3434,04 查询我的图片,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,76427,363,3,3,http://your-server-host/api/file/my-images,305,0,0
+1779339725107,3145,08 查询历史记录,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,131652,358,3,3,http://your-server-host/api/record/my,1306,0,0
+1779339728253,110,01 登录认证,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,459,430,3,3,http://your-server-host/api/user/auth,110,0,2
+1779339726014,18198,05 图搜图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,5887,20358,3,3,http://your-server-host/api/file/search,17364,0,0
+1779339718488,31375,03 上传服装图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,371,1414754,3,3,http://your-server-host/api/file/upload/image,31375,0,0
+1779339749864,115,04 查询我的图片,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,76529,363,3,3,http://your-server-host/api/file/my-images,26,0,0
+1779339749980,4161,05 图搜图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,5880,20367,3,3,http://your-server-host/api/file/search,4161,0,0
+1779339754144,21,06 图片编辑,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,3,3,http://your-server-host/api/file/edit,21,0,0
+1779339754165,21,07 图片合并,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,569,3,3,http://your-server-host/api/file/merge,21,0,0
+1779339754186,1478,08 查询历史记录,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,131623,358,3,3,http://your-server-host/api/record/my,248,0,0
+1779339755665,112,01 登录认证,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,459,430,3,3,http://your-server-host/api/user/auth,112,0,1
+1779339755778,3333,02 上传人物图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,369,20367,3,3,http://your-server-host/api/file/upload/image,3333,0,0
+1779339744213,15734,06 图片编辑,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,555,529,3,3,http://your-server-host/api/file/edit,15734,0,1
+1779339759112,26667,03 上传服装图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,371,1414760,3,3,http://your-server-host/api/file/upload/image,26667,0,0
+1779339785781,125,04 查询我的图片,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,76889,363,3,3,http://your-server-host/api/file/my-images,25,0,0
+1779339728364,60024,02 上传人物图,504,Gateway Time-out,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[504]]]
+
+****** comparison: [[[200]]]
+
+/",329,20376,3,3,http://your-server-host/api/file/upload/image,60024,0,0
+1779339785907,4352,05 图搜图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,6039,20370,3,3,http://your-server-host/api/file/search,3734,0,0
+1779339759948,37890,07 图片合并,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,555,639,3,3,http://your-server-host/api/file/merge,37890,0,0
+1779339797839,1736,08 查询历史记录,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,133159,358,3,3,http://your-server-host/api/record/my,594,0,0
+1779339799577,113,01 登录认证,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,459,430,3,3,http://your-server-host/api/user/auth,113,0,1
+1779339799691,4323,02 上传人物图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,369,20382,3,3,http://your-server-host/api/file/upload/image,4323,0,0
+1779339790259,24626,06 图片编辑,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,553,529,3,3,http://your-server-host/api/file/edit,24626,0,0
+1779339788390,35498,03 上传服装图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,371,1414754,3,3,http://your-server-host/api/file/upload/image,35498,0,1
+1779339823889,1008,04 查询我的图片,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,77451,363,3,3,http://your-server-host/api/file/my-images,25,0,0
+1779339824898,5813,05 图搜图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,6345,20379,3,3,http://your-server-host/api/file/search,5370,0,0
+1779339830711,1468,06 图片编辑,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,3,3,http://your-server-host/api/file/edit,1468,0,0
+1779339832179,2692,07 图片合并,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,569,3,3,http://your-server-host/api/file/merge,2692,0,0
+1779339834871,3879,08 查询历史记录,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,133810,358,3,3,http://your-server-host/api/record/my,2815,0,0
+1779339838752,112,01 登录认证,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,459,430,3,3,http://your-server-host/api/user/auth,112,0,0
+1779339838865,5952,02 上传人物图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,369,20364,3,3,http://your-server-host/api/file/upload/image,5952,0,0
+1779339804015,50208,03 上传服装图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,371,1414757,3,3,http://your-server-host/api/file/upload/image,50207,0,0
+1779339854222,1105,04 查询我的图片,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,77818,363,3,3,http://your-server-host/api/file/my-images,617,0,0
+1779339814887,47557,07 图片合并,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,559,639,3,3,http://your-server-host/api/file/merge,47557,0,0
+1779339855328,7527,05 图搜图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,6506,20367,3,3,http://your-server-host/api/file/search,4685,0,0
+1779339862445,1724,08 查询历史记录,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,134623,358,3,3,http://your-server-host/api/record/my,750,0,2
+1779339864170,109,01 登录认证,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,459,430,3,3,http://your-server-host/api/user/auth,109,0,1
+1779339864281,1908,02 上传人物图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20379,3,3,http://your-server-host/api/file/upload/image,1908,0,0
+1779339862857,20194,06 图片编辑,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,557,529,3,3,http://your-server-host/api/file/edit,20194,0,2
+1779339844819,47576,03 上传服装图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,371,1414769,3,3,http://your-server-host/api/file/upload/image,47576,0,0
+1779339892398,3231,04 查询我的图片,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,78006,363,3,3,http://your-server-host/api/file/my-images,163,0,0
+1779339895630,12087,05 图搜图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,6498,20355,3,3,http://your-server-host/api/file/search,10752,0,0
+1779339866190,42105,03 上传服装图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,371,1414754,3,3,http://your-server-host/api/file/upload/image,42105,0,0
+1779339908298,46,04 查询我的图片,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,78180,363,3,3,http://your-server-host/api/file/my-images,26,0,0
+1779339908345,3689,05 图搜图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,6492,20361,3,3,http://your-server-host/api/file/search,3689,0,0
+1779339912035,24,06 图片编辑,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,3,3,http://your-server-host/api/file/edit,24,0,0
+1779339912059,28,07 图片合并,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,569,3,3,http://your-server-host/api/file/merge,28,0,0
+1779339912087,1624,08 查询历史记录,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,135279,358,3,3,http://your-server-host/api/record/my,1381,0,0
+1779339913713,116,01 登录认证,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,459,430,3,3,http://your-server-host/api/user/auth,116,0,1
+1779339883051,35729,07 图片合并,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,546,639,3,3,http://your-server-host/api/file/merge,35728,0,0
+1779339918780,727,08 查询历史记录,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,136096,358,3,3,http://your-server-host/api/record/my,25,0,0
+1779339919509,111,01 登录认证,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,459,430,3,3,http://your-server-host/api/user/auth,111,0,1
+1779339913831,5858,02 上传人物图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,369,20388,3,3,http://your-server-host/api/file/upload/image,5858,0,0
+1779339907719,20164,06 图片编辑,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,555,529,3,3,http://your-server-host/api/file/edit,20163,0,1
+1779339919621,12267,02 上传人物图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,369,20361,3,3,http://your-server-host/api/file/upload/image,12267,0,0
+1779339919691,36779,03 上传服装图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,371,1414757,3,3,http://your-server-host/api/file/upload/image,36779,0,0
+1779339956471,1244,04 查询我的图片,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,78755,363,3,3,http://your-server-host/api/file/my-images,268,0,0
+1779339957716,6611,05 图搜图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,6804,20364,3,3,http://your-server-host/api/file/search,6312,0,0
+1779339931890,41525,03 上传服装图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,371,1414778,3,3,http://your-server-host/api/file/upload/image,41525,0,0
+1779339927883,46171,07 图片合并,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,553,639,3,3,http://your-server-host/api/file/merge,46171,0,0
+1779339973417,1332,04 查询我的图片,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,78915,363,3,3,http://your-server-host/api/file/my-images,66,0,0
+1779339974054,4862,08 查询历史记录,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,137663,358,3,3,http://your-server-host/api/record/my,1193,0,1
+1779339978917,356,01 登录认证,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,459,430,3,3,http://your-server-host/api/user/auth,356,0,1
+1779339974749,5920,05 图搜图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,6804,20358,3,3,http://your-server-host/api/file/search,5085,0,0
+1779339979274,4072,02 上传人物图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,369,20367,3,3,http://your-server-host/api/file/upload/image,4072,0,0
+1779339964328,34710,06 图片编辑,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-1,text,true,,555,529,3,3,http://your-server-host/api/file/edit,34710,0,0
+1779339983347,22948,03 上传服装图,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-2,text,true,,371,1414781,2,2,http://your-server-host/api/file/upload/image,22948,0,0
+1779339980669,28422,06 图片编辑,200,,完整业务流程图搜图3并发15分钟阶梯线程组 1-3,text,true,,559,529,1,1,http://your-server-host/api/file/edit,28422,0,1
+

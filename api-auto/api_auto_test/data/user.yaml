@@ -1,0 +1,147 @@
+send_code:
+  - id: send_code_success
+    name: 正常发送验证码
+    payload:
+      email: "2447005837@qq.com"
+    expect_code: 200
+    expect_keys: ["sendTo", "expireTime"]
+  - id: send_code_empty_email
+    name: 邮箱为空
+    payload:
+      email: ""
+    expect_code: 400
+    expect_message: "邮箱不能为空"
+  - id: send_code_missing_email
+    name: 邮箱字段缺失
+    payload: {}
+    expect_code: 400
+    expect_message: "邮箱不能为空"
+  - id: send_code_invalid_email
+    name: 邮箱格式错误
+    payload:
+      email: "2447005837qq.com"
+    expect_code: 400
+    expect_message: "邮箱格式错误"
+  - id: send_code_repeat
+    name: 重复发送验证码
+    payload:
+      email: "2447005837@qq.com"
+    expect_code: 400
+    expect_message: "验证码还没过期，请勿重复发送"
+
+auth:
+  - id: auth_password_success
+    name: 账号密码正常登录
+    login_mode: password
+    account_ref: yang
+    expect_code: 200
+    expect_keys: ["userId", "username", "email", "token"]
+  - id: auth_password_wrong
+    name: 用户名或密码错误
+    payload:
+      account: "Yang"
+      password: "wrong123"
+    expect_code: 400
+    expect_message: "用户名或密码错误"
+  - id: auth_empty_account
+    name: 账号为空
+    payload:
+      account: ""
+      password: "Yyt1112"
+    expect_code: 400
+    expect_message: "账号不能为空"
+  - id: auth_missing_account
+    name: 账号字段缺失
+    payload:
+      password: "Yyt1112"
+    expect_code: 400
+    expect_message: "账号不能为空"
+  - id: auth_empty_password
+    name: 密码为空
+    payload:
+      account: "Yang"
+      password: ""
+    expect_code: 400
+    expect_message: "密码不能为空"
+  - id: auth_missing_password
+    name: 密码字段缺失
+    payload:
+      account: "Yang"
+    expect_code: 400
+    expect_message: "密码不能为空"
+  - id: auth_email_success_manual
+    name: 邮箱验证码正常登录
+    payload:
+      account: "2447005837@qq.com"
+      verificationCode: "__REAL_VERIFICATION_CODE__"
+    expect_code: 200
+    expect_keys: ["userId", "username", "email", "token"]
+  - id: auth_email_wrong_code
+    name: 验证码错误
+    payload:
+      account: "2447005837@qq.com"
+      verificationCode: "000000"
+    expect_code: 400
+    expect_message: "验证码不存在或已过期"
+  - id: auth_email_empty_code
+    name: 验证码为空
+    payload:
+      account: "2447005837@qq.com"
+      verificationCode: ""
+    expect_code: 400
+    expect_message: "验证码不能为空"
+  - id: auth_email_missing_code
+    name: 验证码字段缺失
+    payload:
+      account: "2447005837@qq.com"
+    expect_code: 400
+    expect_message: "验证码不能为空"
+  - id: auth_new_account_auto_create
+    name: 新账号自动创建
+    payload:
+      account: "__RANDOM_NEW_ACCOUNT__"
+      password: "NewPass123"
+    expect_code: 200
+    expect_keys: ["userId", "username", "email", "token"]
+
+logout:
+  - id: logout_success
+    name: 正常登出
+    header_mode: valid
+    expect_code: 200
+    expected_data: "登出成功"
+  - id: logout_missing_header
+    name: 缺少 Authorization
+    header_mode: none
+    expect_code: 400
+    expect_message: "缺少请求头令牌"
+  - id: logout_empty_header
+    name: Authorization 为空
+    header_mode: empty
+    expect_code: 400
+    expect_message: "缺少请求头令牌"
+  - id: logout_invalid_header
+    name: Authorization 格式错误
+    header_mode: invalid_format
+    expect_code: 400
+    expect_message: "请求头令牌格式错误"
+  - id: logout_fake_jwt
+    name: 非法 JWT
+    header_mode: fake_jwt
+    expect_code: 500
+    markers: ["unstable"]
+  - id: logout_old_token
+    name: token 已不存在
+    header_mode: revoked_token
+    expect_code: 500
+    expect_message: "登出失败.请稍后重试"
+  - id: logout_repeat
+    name: 重复登出
+    header_mode: repeat_logout
+    expect_code: 500
+    expect_message: "登出失败.请稍后重试"
+  - id: logout_bearer_blank
+    name: Bearer 后只有空格
+    header_mode: bearer_blank
+    expect_code: 400
+    expect_message: "请求头令牌格式错误"

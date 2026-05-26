@@ -1,0 +1,293 @@
+﻿timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1779333274782,162,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,266,1,1,http://your-server-host/api/user/auth,161,0,20
+1779333275556,1853,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20364,1,1,http://your-server-host/api/file/upload/image,1853,0,0
+1779333277425,11952,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414781,1,1,http://your-server-host/api/file/upload/image,11952,0,0
+1779333289390,42,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62839,363,1,1,http://your-server-host/api/file/my-images,23,0,0
+1779333289437,21,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,21,0,0
+1779333289459,21,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,21,0,0
+1779333289481,21,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,21,0,0
+1779333289504,779,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85826,358,1,1,http://your-server-host/api/record/my,252,0,0
+1779333290337,110,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,110,0,1
+1779333290449,3301,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20376,1,1,http://your-server-host/api/file/upload/image,3301,0,0
+1779333293752,11737,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414772,1,1,http://your-server-host/api/file/upload/image,11737,0,0
+1779333305491,40,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62847,363,1,1,http://your-server-host/api/file/my-images,23,0,0
+1779333305533,266,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,266,0,0
+1779333305800,20,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,20,0,0
+1779333305821,242,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,242,0,0
+1779333306064,885,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85853,358,1,1,http://your-server-host/api/record/my,235,0,0
+1779333306951,108,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,108,0,1
+1779333307061,3871,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20373,1,1,http://your-server-host/api/file/upload/image,3871,0,0
+1779333310933,11281,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414769,1,1,http://your-server-host/api/file/upload/image,11281,0,0
+1779333322216,38,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62839,363,1,1,http://your-server-host/api/file/my-images,21,0,0
+1779333322256,268,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,268,0,0
+1779333322526,20,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,20,0,0
+1779333322547,273,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,273,0,0
+1779333322821,862,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85819,358,1,1,http://your-server-host/api/record/my,53,0,0
+1779333323685,121,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,121,0,1
+1779333323807,3194,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20367,1,1,http://your-server-host/api/file/upload/image,3194,0,0
+1779333327002,10769,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414754,1,1,http://your-server-host/api/file/upload/image,10769,0,0
+1779333337772,44,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62847,363,1,1,http://your-server-host/api/file/my-images,23,0,0
+1779333337817,251,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,251,0,0
+1779333338069,24,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,24,0,0
+1779333338094,272,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,272,0,0
+1779333338367,1197,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85854,358,1,1,http://your-server-host/api/record/my,65,0,0
+1779333339565,113,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,113,0,1
+1779333339680,2999,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20376,1,1,http://your-server-host/api/file/upload/image,2999,0,0
+1779333342681,12116,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414757,1,1,http://your-server-host/api/file/upload/image,12116,0,0
+1779333354798,45,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62839,363,1,1,http://your-server-host/api/file/my-images,23,0,0
+1779333354844,21,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,21,0,0
+1779333354866,21,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,21,0,0
+1779333354889,21,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,21,0,0
+1779333354911,1099,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85840,358,1,1,http://your-server-host/api/record/my,248,0,0
+1779333356013,111,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,111,0,1
+1779333356125,3247,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20385,1,1,http://your-server-host/api/file/upload/image,3247,0,0
+1779333359374,11896,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414754,1,1,http://your-server-host/api/file/upload/image,11896,0,0
+1779333371271,38,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62839,363,1,1,http://your-server-host/api/file/my-images,21,0,0
+1779333371310,255,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,254,0,0
+1779333371565,20,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,20,0,0
+1779333371586,267,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,267,0,0
+1779333371854,769,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85818,358,1,1,http://your-server-host/api/record/my,270,0,0
+1779333372625,108,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,108,0,1
+1779333372734,2076,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20358,1,1,http://your-server-host/api/file/upload/image,2076,0,0
+1779333374811,10962,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414757,1,1,http://your-server-host/api/file/upload/image,10961,0,0
+1779333385773,46,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62839,363,1,1,http://your-server-host/api/file/my-images,26,0,0
+1779333385820,248,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,248,0,0
+1779333386070,23,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,23,0,0
+1779333386094,254,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,254,0,0
+1779333386349,729,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85832,358,1,1,http://your-server-host/api/record/my,73,0,0
+1779333387079,117,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,117,0,1
+1779333387197,3374,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20373,1,1,http://your-server-host/api/file/upload/image,3374,0,0
+1779333390573,12362,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414778,1,1,http://your-server-host/api/file/upload/image,12362,0,0
+1779333402938,53,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62847,363,1,1,http://your-server-host/api/file/my-images,28,0,0
+1779333402992,25,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,25,0,0
+1779333403018,25,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,25,0,0
+1779333403043,24,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,23,0,0
+1779333403067,2066,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85839,358,1,1,http://your-server-host/api/record/my,246,0,0
+1779333405134,115,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,115,0,1
+1779333405250,2064,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20385,1,1,http://your-server-host/api/file/upload/image,2064,0,0
+1779333407315,11041,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414766,1,1,http://your-server-host/api/file/upload/image,11041,0,0
+1779333418360,45,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62839,363,1,1,http://your-server-host/api/file/my-images,24,0,0
+1779333418405,23,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,23,0,0
+1779333418428,22,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,22,0,0
+1779333418451,275,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,275,0,0
+1779333418727,1518,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85833,358,1,1,http://your-server-host/api/record/my,237,0,0
+1779333420247,116,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,116,0,1
+1779333420365,3520,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20379,1,1,http://your-server-host/api/file/upload/image,3520,0,0
+1779333423887,10679,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414769,1,1,http://your-server-host/api/file/upload/image,10679,0,0
+1779333434568,53,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62839,363,1,1,http://your-server-host/api/file/my-images,27,0,0
+1779333434622,26,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,26,0,0
+1779333434649,24,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,24,0,0
+1779333434673,25,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,25,0,0
+1779333434698,1109,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85840,358,1,1,http://your-server-host/api/record/my,249,0,0
+1779333435807,151,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,151,0,1
+1779333435960,3152,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20367,1,1,http://your-server-host/api/file/upload/image,3151,0,0
+1779333439113,12046,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414754,1,1,http://your-server-host/api/file/upload/image,12046,0,0
+1779333451161,52,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62847,363,1,1,http://your-server-host/api/file/my-images,26,0,0
+1779333451214,263,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,263,0,0
+1779333451478,27,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,27,0,0
+1779333451506,61,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,61,0,0
+1779333451568,1134,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85853,358,1,1,http://your-server-host/api/record/my,276,0,0
+1779333452704,112,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,112,0,1
+1779333452817,3390,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20358,1,1,http://your-server-host/api/file/upload/image,3390,0,0
+1779333456209,11482,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414757,1,1,http://your-server-host/api/file/upload/image,11482,0,0
+1779333467692,39,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62839,363,1,1,http://your-server-host/api/file/my-images,22,0,0
+1779333467732,254,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,254,0,0
+1779333467987,21,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,21,0,0
+1779333468009,257,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,257,0,0
+1779333468267,756,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85847,358,1,1,http://your-server-host/api/record/my,115,0,0
+1779333469024,116,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,116,0,1
+1779333469141,3527,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20373,1,1,http://your-server-host/api/file/upload/image,3527,0,0
+1779333472669,11749,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414766,1,1,http://your-server-host/api/file/upload/image,11749,0,0
+1779333484420,49,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62847,363,1,1,http://your-server-host/api/file/my-images,26,0,0
+1779333484470,23,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,23,0,0
+1779333484494,24,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,24,0,0
+1779333484519,250,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,250,0,0
+1779333484770,1304,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85861,358,1,1,http://your-server-host/api/record/my,64,0,0
+1779333486076,114,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,114,0,1
+1779333486191,3258,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20379,1,1,http://your-server-host/api/file/upload/image,3258,0,0
+1779333489450,10628,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414772,1,1,http://your-server-host/api/file/upload/image,10628,0,0
+1779333500079,45,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62839,363,1,1,http://your-server-host/api/file/my-images,23,0,0
+1779333500125,264,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,264,0,0
+1779333500389,24,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,24,0,0
+1779333500414,270,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,270,0,0
+1779333500684,727,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85840,358,1,1,http://your-server-host/api/record/my,65,0,0
+1779333501413,111,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,111,0,1
+1779333501526,3821,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20367,1,1,http://your-server-host/api/file/upload/image,3821,0,0
+1779333505349,11220,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414769,1,1,http://your-server-host/api/file/upload/image,11220,0,0
+1779333516570,40,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62839,363,1,1,http://your-server-host/api/file/my-images,22,0,0
+1779333516611,261,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,261,0,0
+1779333516873,22,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,22,0,0
+1779333516896,81,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,81,0,0
+1779333516977,1127,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85839,358,1,1,http://your-server-host/api/record/my,277,0,0
+1779333518105,109,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,109,0,1
+1779333518216,4687,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20379,1,1,http://your-server-host/api/file/upload/image,4687,0,0
+1779333522905,10942,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414751,1,1,http://your-server-host/api/file/upload/image,10942,0,0
+1779333533849,39,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62839,363,1,1,http://your-server-host/api/file/my-images,22,0,0
+1779333533889,248,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,248,0,0
+1779333534138,21,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,21,0,0
+1779333534159,259,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,259,0,0
+1779333534419,1100,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85846,358,1,1,http://your-server-host/api/record/my,253,0,0
+1779333535521,110,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,110,0,0
+1779333535632,3443,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20370,1,1,http://your-server-host/api/file/upload/image,3443,0,0
+1779333539076,11764,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414760,1,1,http://your-server-host/api/file/upload/image,11764,0,0
+1779333550841,46,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62847,363,1,1,http://your-server-host/api/file/my-images,25,0,0
+1779333550887,82,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,82,0,0
+1779333550970,131,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,131,0,0
+1779333551102,270,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,270,0,0
+1779333551373,1104,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85840,358,1,1,http://your-server-host/api/record/my,253,0,0
+1779333552478,113,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,113,0,1
+1779333552592,3376,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20364,1,1,http://your-server-host/api/file/upload/image,3376,0,0
+1779333555969,10887,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414754,1,1,http://your-server-host/api/file/upload/image,10887,0,0
+1779333566858,340,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62847,363,1,1,http://your-server-host/api/file/my-images,27,0,0
+1779333567199,24,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,24,0,0
+1779333567223,23,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,23,0,0
+1779333567247,23,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,23,0,0
+1779333567270,1523,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85840,358,1,1,http://your-server-host/api/record/my,241,0,0
+1779333568794,110,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,110,0,1
+1779333568905,2982,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20379,1,1,http://your-server-host/api/file/upload/image,2982,0,0
+1779333571889,11491,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414754,1,1,http://your-server-host/api/file/upload/image,11491,0,0
+1779333583381,38,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62854,363,1,1,http://your-server-host/api/file/my-images,20,0,0
+1779333583421,258,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,258,0,0
+1779333583680,20,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,20,0,0
+1779333583701,259,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,259,0,0
+1779333583961,726,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85811,358,1,1,http://your-server-host/api/record/my,76,0,0
+1779333584689,136,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,136,0,0
+1779333584826,2618,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20385,1,1,http://your-server-host/api/file/upload/image,2618,0,0
+1779333587445,11635,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414781,1,1,http://your-server-host/api/file/upload/image,11635,0,0
+1779333599080,41,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62839,363,1,1,http://your-server-host/api/file/my-images,23,0,0
+1779333599122,19,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,19,0,0
+1779333599141,19,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,19,0,0
+1779333599160,18,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,18,0,0
+1779333599179,1102,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85826,358,1,1,http://your-server-host/api/record/my,247,0,0
+1779333600284,114,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,114,0,1
+1779333600399,4023,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20385,1,1,http://your-server-host/api/file/upload/image,4023,0,0
+1779333604423,11768,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414760,1,1,http://your-server-host/api/file/upload/image,11768,0,0
+1779333616192,45,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62847,363,1,1,http://your-server-host/api/file/my-images,22,0,0
+1779333616237,22,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,21,0,0
+1779333616259,21,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,21,0,0
+1779333616281,238,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,238,0,0
+1779333616521,1498,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85853,358,1,1,http://your-server-host/api/record/my,236,0,0
+1779333618020,115,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,115,0,1
+1779333618136,2269,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20388,1,1,http://your-server-host/api/file/upload/image,2269,0,0
+1779333620407,12539,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414757,1,1,http://your-server-host/api/file/upload/image,12539,0,0
+1779333632948,42,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62847,363,1,1,http://your-server-host/api/file/my-images,22,0,0
+1779333632991,265,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,265,0,0
+1779333633257,22,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,22,0,0
+1779333633280,241,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,241,0,0
+1779333633522,679,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85818,358,1,1,http://your-server-host/api/record/my,44,0,0
+1779333634203,117,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,117,0,1
+1779333634321,4943,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20385,1,1,http://your-server-host/api/file/upload/image,4943,0,0
+1779333639265,15039,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414757,1,1,http://your-server-host/api/file/upload/image,15039,0,0
+1779333654304,53,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62839,363,1,1,http://your-server-host/api/file/my-images,27,0,0
+1779333654358,25,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,25,0,0
+1779333654384,24,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,24,0,0
+1779333654409,24,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,24,0,0
+1779333654433,1096,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85833,358,1,1,http://your-server-host/api/record/my,239,0,0
+1779333655530,112,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,112,0,1
+1779333655643,3149,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20367,1,1,http://your-server-host/api/file/upload/image,3149,0,0
+1779333658794,12838,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414766,1,1,http://your-server-host/api/file/upload/image,12838,0,0
+1779333671634,42,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62855,363,1,1,http://your-server-host/api/file/my-images,22,0,0
+1779333671676,22,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,22,0,0
+1779333671698,21,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,21,0,0
+1779333671720,485,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,485,0,0
+1779333672206,880,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85840,358,1,1,http://your-server-host/api/record/my,26,0,0
+1779333673088,110,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,110,0,1
+1779333673199,3256,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20376,1,1,http://your-server-host/api/file/upload/image,3256,0,0
+1779333676456,10708,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414775,1,1,http://your-server-host/api/file/upload/image,10708,0,0
+1779333687165,45,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62839,363,1,1,http://your-server-host/api/file/my-images,23,0,0
+1779333687211,252,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,252,0,0
+1779333687464,24,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,24,0,0
+1779333687488,247,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,247,0,0
+1779333687735,1569,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85819,358,1,1,http://your-server-host/api/record/my,61,0,0
+1779333689305,109,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,109,0,1
+1779333689415,2694,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20382,1,1,http://your-server-host/api/file/upload/image,2694,0,0
+1779333692111,11109,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414769,1,1,http://your-server-host/api/file/upload/image,11109,0,0
+1779333703221,38,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62839,363,1,1,http://your-server-host/api/file/my-images,21,0,0
+1779333703260,256,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,256,0,0
+1779333703516,20,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,20,0,0
+1779333703537,267,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,267,0,0
+1779333703804,1553,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85840,358,1,1,http://your-server-host/api/record/my,76,0,0
+1779333705358,111,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,111,0,1
+1779333705470,2952,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20364,1,1,http://your-server-host/api/file/upload/image,2952,0,0
+1779333708423,10583,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414769,1,1,http://your-server-host/api/file/upload/image,10583,0,0
+1779333719007,43,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62839,363,1,1,http://your-server-host/api/file/my-images,23,0,0
+1779333719051,249,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,249,0,0
+1779333719301,23,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,23,0,0
+1779333719324,257,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,257,0,0
+1779333719582,674,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85840,358,1,1,http://your-server-host/api/record/my,234,0,0
+1779333720260,115,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,115,0,1
+1779333720376,3212,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20361,1,1,http://your-server-host/api/file/upload/image,3212,0,0
+1779333723589,10747,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414778,1,1,http://your-server-host/api/file/upload/image,10747,0,0
+1779333734336,46,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62847,363,1,1,http://your-server-host/api/file/my-images,22,0,0
+1779333734383,260,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,260,0,0
+1779333734643,25,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,25,0,0
+1779333734668,279,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,279,0,0
+1779333734948,714,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85819,358,1,1,http://your-server-host/api/record/my,65,0,0
+1779333735664,113,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,113,0,1
+1779333735778,4307,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20367,1,1,http://your-server-host/api/file/upload/image,4307,0,0
+1779333740087,12683,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414754,1,1,http://your-server-host/api/file/upload/image,12683,0,0
+1779333752772,43,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62847,363,1,1,http://your-server-host/api/file/my-images,24,0,0
+1779333752816,38,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,38,0,0
+1779333752855,252,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,252,0,0
+1779333753107,39,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,39,0,0
+1779333753147,1154,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85833,358,1,1,http://your-server-host/api/record/my,288,0,0
+1779333754302,112,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,112,0,1
+1779333754415,3269,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20373,1,1,http://your-server-host/api/file/upload/image,3269,0,0
+1779333757686,13140,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414781,1,1,http://your-server-host/api/file/upload/image,13140,0,0
+1779333770827,45,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62839,363,1,1,http://your-server-host/api/file/my-images,24,0,0
+1779333770873,22,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,22,0,0
+1779333770895,22,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,22,0,0
+1779333770917,22,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,22,0,0
+1779333770939,1300,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85854,358,1,1,http://your-server-host/api/record/my,242,0,0
+1779333772240,145,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,145,0,1
+1779333772386,4548,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20364,1,1,http://your-server-host/api/file/upload/image,4548,0,0
+1779333776935,13105,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414766,1,1,http://your-server-host/api/file/upload/image,13105,0,0
+1779333790040,43,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62839,363,1,1,http://your-server-host/api/file/my-images,22,0,0
+1779333790084,261,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,261,0,0
+1779333790345,21,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,21,0,0
+1779333790367,282,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,282,0,0
+1779333790649,718,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85833,358,1,1,http://your-server-host/api/record/my,59,0,0
+1779333791369,107,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,107,0,0
+1779333791477,5017,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20373,1,1,http://your-server-host/api/file/upload/image,5017,0,0
+1779333796495,11113,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414754,1,1,http://your-server-host/api/file/upload/image,11113,0,0
+1779333807610,35,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62847,363,1,1,http://your-server-host/api/file/my-images,20,0,0
+1779333807646,236,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,236,0,0
+1779333807882,18,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,18,0,0
+1779333807901,237,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,237,0,0
+1779333808139,888,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85840,358,1,1,http://your-server-host/api/record/my,237,0,0
+1779333809028,110,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,110,0,1
+1779333809139,2106,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20388,1,1,http://your-server-host/api/file/upload/image,2106,0,0
+1779333811247,10855,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414769,1,1,http://your-server-host/api/file/upload/image,10855,0,0
+1779333822103,40,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62839,363,1,1,http://your-server-host/api/file/my-images,20,0,0
+1779333822144,20,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,20,0,0
+1779333822164,21,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,21,0,0
+1779333822186,20,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,20,0,0
+1779333822206,699,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85811,358,1,1,http://your-server-host/api/record/my,238,0,0
+1779333822906,107,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,107,0,1
+1779333823014,2759,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20385,1,1,http://your-server-host/api/file/upload/image,2759,0,0
+1779333825773,12321,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414766,1,1,http://your-server-host/api/file/upload/image,12321,0,0
+1779333838096,39,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62839,363,1,1,http://your-server-host/api/file/my-images,20,0,0
+1779333838136,20,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,20,0,0
+1779333838156,21,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,21,0,0
+1779333838177,20,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,20,0,0
+1779333838197,1094,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85833,358,1,1,http://your-server-host/api/record/my,245,0,0
+1779333839293,105,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,105,0,0
+1779333839399,2010,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20376,1,1,http://your-server-host/api/file/upload/image,2010,0,0
+1779333841410,10745,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414775,1,1,http://your-server-host/api/file/upload/image,10745,0,0
+1779333852156,38,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62854,363,1,1,http://your-server-host/api/file/my-images,20,0,0
+1779333852195,247,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,247,0,0
+1779333852442,20,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,20,0,0
+1779333852462,237,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,237,0,0
+1779333852700,892,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85847,358,1,1,http://your-server-host/api/record/my,245,0,0
+1779333853593,114,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,114,0,1
+1779333853708,3102,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20367,1,1,http://your-server-host/api/file/upload/image,3102,0,0
+1779333856811,10738,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414766,1,1,http://your-server-host/api/file/upload/image,10738,0,0
+1779333867550,49,04 查询我的图片,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,62839,363,1,1,http://your-server-host/api/file/my-images,26,0,0
+1779333867600,25,05 文搜图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,25,0,0
+1779333867625,22,06 图片编辑,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",266,458,1,1,http://your-server-host/api/file/edit,22,0,0
+1779333867647,23,07 图片合并,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",241,498,1,1,http://your-server-host/api/file/merge,23,0,0
+1779333867671,1096,08 查询历史记录,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,85847,358,1,1,http://your-server-host/api/record/my,242,0,0
+1779333868768,113,01 登录认证,200,,完整业务流程1并发10分钟验证线程组 1-1,text,true,,459,430,1,1,http://your-server-host/api/user/auth,113,0,1
+1779333868882,3646,02 上传人物图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,20364,1,1,http://your-server-host/api/file/upload/image,3646,0,0
+1779333872528,11554,03 上传服装图,200,,完整业务流程1并发10分钟验证线程组 1-1,text,false,"Value in json path '$.code' expected to be '200', but found '400'",257,1414757,1,1,http://your-server-host/api/file/upload/image,11554,0,0
+

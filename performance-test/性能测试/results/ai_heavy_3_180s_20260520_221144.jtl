@@ -1,0 +1,37 @@
+﻿timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1779286311207,129,01 登录认证,200,,AI重接口3并发120秒阶梯线程组 1-1,text,true,,459,234,1,1,http://your-server-host/api/user/auth,129,0,17
+1779286322118,133,01 登录认证,200,,AI重接口3并发120秒阶梯线程组 1-2,text,true,,459,234,2,2,http://your-server-host/api/user/auth,133,0,1
+1779286311934,20971,02 图片编辑,200,,AI重接口3并发120秒阶梯线程组 1-1,text,true,,553,529,2,2,http://your-server-host/api/file/edit,20971,0,0
+1779286333103,107,01 登录认证,200,,AI重接口3并发120秒阶梯线程组 1-3,text,true,,459,234,3,3,http://your-server-host/api/user/auth,107,0,2
+1779286322255,23388,02 图片编辑,200,,AI重接口3并发120秒阶梯线程组 1-2,text,true,,555,529,3,3,http://your-server-host/api/file/edit,23388,0,0
+1779286333213,19251,02 图片编辑,200,,AI重接口3并发120秒阶梯线程组 1-3,text,true,,555,529,3,3,http://your-server-host/api/file/edit,19251,0,0
+1779286345644,19507,03 图片合并,200,,AI重接口3并发120秒阶梯线程组 1-2,text,true,,548,639,3,3,http://your-server-host/api/file/merge,19507,0,0
+1779286365157,105,01 登录认证,200,,AI重接口3并发120秒阶梯线程组 1-2,text,true,,459,234,3,3,http://your-server-host/api/user/auth,105,0,1
+1779286332906,34821,03 图片合并,200,,AI重接口3并发120秒阶梯线程组 1-1,text,true,,557,639,3,3,http://your-server-host/api/file/merge,34821,0,0
+1779286367730,105,01 登录认证,200,,AI重接口3并发120秒阶梯线程组 1-1,text,true,,459,234,3,3,http://your-server-host/api/user/auth,104,0,0
+1779286365263,20359,02 图片编辑,200,,AI重接口3并发120秒阶梯线程组 1-2,text,true,,553,529,3,3,http://your-server-host/api/file/edit,20359,0,0
+1779286352466,38711,03 图片合并,200,,AI重接口3并发120秒阶梯线程组 1-3,text,true,,555,639,3,3,http://your-server-host/api/file/merge,38711,0,0
+1779286367836,23402,02 图片编辑,200,,AI重接口3并发120秒阶梯线程组 1-1,text,true,,555,529,3,3,http://your-server-host/api/file/edit,23402,0,0
+1779286391178,106,01 登录认证,200,,AI重接口3并发120秒阶梯线程组 1-3,text,true,,459,234,3,3,http://your-server-host/api/user/auth,106,0,1
+1779286385624,29501,03 图片合并,200,,AI重接口3并发120秒阶梯线程组 1-2,text,true,,555,639,3,3,http://your-server-host/api/file/merge,29501,0,0
+1779286415127,135,01 登录认证,200,,AI重接口3并发120秒阶梯线程组 1-2,text,true,,459,234,3,3,http://your-server-host/api/user/auth,135,0,0
+1779286391284,27128,02 图片编辑,200,,AI重接口3并发120秒阶梯线程组 1-3,text,true,,553,529,3,3,http://your-server-host/api/file/edit,27128,0,0
+1779286391239,31317,03 图片合并,200,,AI重接口3并发120秒阶梯线程组 1-1,text,true,,555,639,3,3,http://your-server-host/api/file/merge,31317,0,0
+1779286422557,107,01 登录认证,200,,AI重接口3并发120秒阶梯线程组 1-1,text,true,,459,234,3,3,http://your-server-host/api/user/auth,107,0,0
+1779286415263,23819,02 图片编辑,200,,AI重接口3并发120秒阶梯线程组 1-2,text,true,,553,529,3,3,http://your-server-host/api/file/edit,23819,0,0
+1779286422666,21046,02 图片编辑,200,,AI重接口3并发120秒阶梯线程组 1-1,text,true,,553,529,3,3,http://your-server-host/api/file/edit,21046,0,0
+1779286418413,29733,03 图片合并,200,,AI重接口3并发120秒阶梯线程组 1-3,text,true,,553,639,3,3,http://your-server-host/api/file/merge,29733,0,0
+1779286448150,108,01 登录认证,200,,AI重接口3并发120秒阶梯线程组 1-3,text,true,,459,234,3,3,http://your-server-host/api/user/auth,108,0,1
+1779286448259,19098,02 图片编辑,200,,AI重接口3并发120秒阶梯线程组 1-3,text,true,,555,529,3,3,http://your-server-host/api/file/edit,19098,0,0
+1779286439083,38595,03 图片合并,200,,AI重接口3并发120秒阶梯线程组 1-2,text,true,,553,639,3,3,http://your-server-host/api/file/merge,38594,0,0
+1779286477677,106,01 登录认证,200,,AI重接口3并发120秒阶梯线程组 1-2,text,true,,459,234,3,3,http://your-server-host/api/user/auth,106,0,1
+1779286443713,37592,03 图片合并,200,,AI重接口3并发120秒阶梯线程组 1-1,text,true,,555,639,3,3,http://your-server-host/api/file/merge,37592,0,0
+1779286481306,111,01 登录认证,200,,AI重接口3并发120秒阶梯线程组 1-1,text,true,,459,234,3,3,http://your-server-host/api/user/auth,111,0,2
+1779286477785,23314,02 图片编辑,200,,AI重接口3并发120秒阶梯线程组 1-2,text,true,,553,529,3,3,http://your-server-host/api/file/edit,23314,0,0
+1779286481419,20539,02 图片编辑,200,,AI重接口3并发120秒阶梯线程组 1-1,text,true,,553,529,3,3,http://your-server-host/api/file/edit,20539,0,0
+1779286467358,43995,03 图片合并,200,,AI重接口3并发120秒阶梯线程组 1-3,text,true,,555,639,3,3,http://your-server-host/api/file/merge,43994,0,0
+1779286511354,321,01 登录认证,200,,AI重接口3并发120秒阶梯线程组 1-3,text,true,,459,234,3,3,http://your-server-host/api/user/auth,321,0,1
+1779286501102,32199,03 图片合并,200,,AI重接口3并发120秒阶梯线程组 1-2,text,true,,555,639,3,3,http://your-server-host/api/file/merge,32199,0,0
+1779286511677,23810,02 图片编辑,200,,AI重接口3并发120秒阶梯线程组 1-3,text,true,,553,529,2,2,http://your-server-host/api/file/edit,23810,0,0
+1779286501959,36456,03 图片合并,200,,AI重接口3并发120秒阶梯线程组 1-1,text,true,,559,639,1,1,http://your-server-host/api/file/merge,36456,0,0
+

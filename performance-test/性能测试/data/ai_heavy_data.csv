@@ -1,0 +1,4 @@
+﻿account,password,personUrl,clothUrl
+perf_user_001,your_test_password,https://example.com/sample-image.jpg,https://example.com/sample-image.jpg
+perf_user_002,your_test_password,https://example.com/sample-image.jpg,https://example.com/sample-image.jpg
+

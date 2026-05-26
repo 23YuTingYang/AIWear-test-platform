@@ -1,0 +1,83 @@
+﻿timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1779344165887,180,01 login auth,200,,mixed scenario thread group 1-1,text,true,,459,266,1,1,http://your-server-host/api/user/auth,179,0,27
+1779344167040,5967,02 upload person image,200,,mixed scenario thread group 1-1,text,true,,369,20370,1,1,http://your-server-host/api/file/upload/image,5966,0,0
+1779344175762,323,01 login auth,200,,mixed scenario thread group 1-2,text,true,,459,266,2,2,http://your-server-host/api/user/auth,323,0,1
+1779344176087,6932,02 upload person image,200,,mixed scenario thread group 1-2,text,true,,369,28237,2,2,http://your-server-host/api/file/upload/image,6932,0,0
+1779344185771,118,01 login auth,200,,mixed scenario thread group 1-3,text,true,,459,266,3,3,http://your-server-host/api/user/auth,117,0,2
+1779344183024,6161,03 upload cloth image,200,,mixed scenario thread group 1-2,text,true,,369,27610,3,3,http://your-server-host/api/file/upload/image,6161,0,0
+1779344189200,4584,07 records,200,,mixed scenario thread group 1-2,text,true,,33239,358,3,3,http://your-server-host/api/record/my,766,0,0
+1779344173026,21267,03 upload cloth image,200,,mixed scenario thread group 1-1,text,true,,371,1414770,3,3,http://your-server-host/api/file/upload/image,21267,0,0
+1779344194295,42,04 my images,200,,mixed scenario thread group 1-1,text,true,,87166,363,3,3,http://your-server-host/api/file/my-images,23,0,0
+1779344194347,251,05 text search,200,,mixed scenario thread group 1-1,text,true,,218,423,3,3,http://your-server-host/api/file/search,251,0,0
+1779344185892,10774,02 upload person image,200,,mixed scenario thread group 1-3,text,true,,369,20373,3,3,http://your-server-host/api/file/upload/image,10774,0,0
+1779344194599,8423,02 upload person image,200,,mixed scenario thread group 1-1,text,true,,369,20367,3,3,http://your-server-host/api/file/upload/image,8423,0,0
+1779344203026,1757,04 my images,200,,mixed scenario thread group 1-1,text,true,,87382,363,3,3,http://your-server-host/api/file/my-images,496,0,0
+1779344204785,3591,07 records,200,,mixed scenario thread group 1-1,text,true,,168260,358,3,3,http://your-server-host/api/record/my,1714,0,0
+1779344208379,666,05 text search,200,,mixed scenario thread group 1-1,text,true,,218,423,3,3,http://your-server-host/api/file/search,666,0,0
+1779344209046,9145,02 upload person image,200,,mixed scenario thread group 1-1,text,true,,369,20358,3,3,http://your-server-host/api/file/upload/image,9145,0,0
+1779344193791,25907,08 edit,200,,mixed scenario thread group 1-2,text,true,,561,544,3,3,http://your-server-host/api/file/edit,25907,0,0
+1779344218194,1785,04 my images,200,,mixed scenario thread group 1-1,text,true,,87589,363,3,3,http://your-server-host/api/file/my-images,223,0,0
+1779344196668,28045,03 upload cloth image,200,,mixed scenario thread group 1-3,text,true,,371,1414782,3,3,http://your-server-host/api/file/upload/image,28044,0,0
+1779344224715,51,04 my images,200,,mixed scenario thread group 1-3,text,true,,48481,363,3,3,http://your-server-host/api/file/my-images,29,0,0
+1779344224767,1128,05 text search,200,,mixed scenario thread group 1-3,text,true,,218,423,3,3,http://your-server-host/api/file/search,1128,0,0
+1779344225896,2720,02 upload person image,200,,mixed scenario thread group 1-3,text,true,,369,20385,3,3,http://your-server-host/api/file/upload/image,2720,0,0
+1779344228620,18,07 records,200,,mixed scenario thread group 1-3,text,true,,1743,358,3,3,http://your-server-host/api/record/my,18,0,0
+1779344228639,24,05 text search,200,,mixed scenario thread group 1-3,text,true,,218,423,3,3,http://your-server-host/api/file/search,24,0,0
+1779344228664,2617,02 upload person image,200,,mixed scenario thread group 1-3,text,true,,369,20379,3,3,http://your-server-host/api/file/upload/image,2617,0,0
+1779344231284,46,04 my images,200,,mixed scenario thread group 1-3,text,true,,48839,363,3,3,http://your-server-host/api/file/my-images,24,0,0
+1779344231333,244,04 my images,200,,mixed scenario thread group 1-3,text,true,,48839,363,3,3,http://your-server-host/api/file/my-images,26,0,0
+1779344231579,250,05 text search,200,,mixed scenario thread group 1-3,text,true,,218,423,3,3,http://your-server-host/api/file/search,250,0,0
+1779344231830,3985,02 upload person image,200,,mixed scenario thread group 1-3,text,true,,369,20373,3,3,http://your-server-host/api/file/upload/image,3985,0,0
+1779344235819,18,07 records,200,,mixed scenario thread group 1-3,text,true,,1743,358,3,3,http://your-server-host/api/record/my,18,0,0
+1779344219983,19512,08 edit,200,,mixed scenario thread group 1-1,text,true,,561,544,3,3,http://your-server-host/api/file/edit,19512,0,0
+1779344219699,34299,09 merge,200,,mixed scenario thread group 1-2,text,true,,553,657,3,3,http://your-server-host/api/file/merge,34299,0,0
+1779344253999,1398,04 my images,200,,mixed scenario thread group 1-2,text,true,,49910,363,3,3,http://your-server-host/api/file/my-images,188,0,1
+1779344235840,21144,08 edit,200,,mixed scenario thread group 1-3,text,true,,557,544,3,3,http://your-server-host/api/file/edit,21144,0,0
+1779344255399,3142,05 text search,200,,mixed scenario thread group 1-2,text,true,,218,423,3,3,http://your-server-host/api/file/search,3142,0,0
+1779344258544,3161,02 upload person image,200,,mixed scenario thread group 1-2,text,true,,369,20367,3,3,http://your-server-host/api/file/upload/image,3161,0,0
+1779344261708,1759,04 my images,200,,mixed scenario thread group 1-2,text,true,,50104,363,3,3,http://your-server-host/api/file/my-images,1246,0,0
+1779344263468,1198,07 records,200,,mixed scenario thread group 1-2,text,true,,34774,358,3,3,http://your-server-host/api/record/my,524,0,0
+1779344264668,309,05 text search,200,,mixed scenario thread group 1-2,text,true,,218,423,3,3,http://your-server-host/api/file/search,309,0,0
+1779344239496,30351,09 merge,200,,mixed scenario thread group 1-1,text,true,,553,657,3,3,http://your-server-host/api/file/merge,30351,0,1
+1779344269848,711,04 my images,200,,mixed scenario thread group 1-1,text,true,,87554,363,3,3,http://your-server-host/api/file/my-images,258,0,0
+1779344264978,5846,02 upload person image,200,,mixed scenario thread group 1-2,text,true,,369,20370,3,3,http://your-server-host/api/file/upload/image,5846,0,0
+1779344270827,316,07 records,200,,mixed scenario thread group 1-2,text,true,,34758,358,3,3,http://your-server-host/api/record/my,69,0,0
+1779344271144,263,05 text search,200,,mixed scenario thread group 1-2,text,true,,218,423,3,3,http://your-server-host/api/file/search,263,0,0
+1779344271407,3235,02 upload person image,200,,mixed scenario thread group 1-2,text,true,,369,20373,3,3,http://your-server-host/api/file/upload/image,3235,0,0
+1779344274644,88,04 my images,200,,mixed scenario thread group 1-2,text,true,,50448,363,3,3,http://your-server-host/api/file/my-images,26,0,0
+1779344274734,278,04 my images,200,,mixed scenario thread group 1-2,text,true,,50455,363,3,3,http://your-server-host/api/file/my-images,25,0,0
+1779344275013,919,05 text search,200,,mixed scenario thread group 1-2,text,true,,218,423,3,3,http://your-server-host/api/file/search,919,0,0
+1779344275933,3989,02 upload person image,200,,mixed scenario thread group 1-2,text,true,,369,20376,3,3,http://your-server-host/api/file/upload/image,3989,0,0
+1779344279923,47,07 records,200,,mixed scenario thread group 1-2,text,true,,34766,358,3,3,http://your-server-host/api/record/my,23,0,0
+1779344256985,29787,09 merge,200,,mixed scenario thread group 1-3,text,true,,553,657,3,3,http://your-server-host/api/file/merge,29787,0,1
+1779344270562,19165,08 edit,200,,mixed scenario thread group 1-1,text,true,,557,544,3,3,http://your-server-host/api/file/edit,19165,0,0
+1779344286773,3326,04 my images,200,,mixed scenario thread group 1-3,text,true,,49017,363,3,3,http://your-server-host/api/file/my-images,2841,0,0
+1779344290100,25,05 text search,200,,mixed scenario thread group 1-3,text,true,,218,423,3,3,http://your-server-host/api/file/search,25,0,0
+1779344290126,4233,02 upload person image,200,,mixed scenario thread group 1-3,text,true,,369,20385,3,3,http://your-server-host/api/file/upload/image,4233,0,0
+1779344294363,68,04 my images,200,,mixed scenario thread group 1-3,text,true,,49197,363,3,3,http://your-server-host/api/file/my-images,23,0,0
+1779344294432,18,07 records,200,,mixed scenario thread group 1-3,text,true,,3277,358,3,3,http://your-server-host/api/record/my,18,0,0
+1779344294452,1150,05 text search,200,,mixed scenario thread group 1-3,text,true,,218,423,3,3,http://your-server-host/api/file/search,1150,0,0
+1779344295603,3219,02 upload person image,200,,mixed scenario thread group 1-3,text,true,,369,20376,3,3,http://your-server-host/api/file/upload/image,3218,0,0
+1779344279971,19092,08 edit,200,,mixed scenario thread group 1-2,text,true,,553,544,3,3,http://your-server-host/api/file/edit,19091,0,0
+1779344298824,492,04 my images,200,,mixed scenario thread group 1-3,text,true,,49376,363,3,3,http://your-server-host/api/file/my-images,250,0,0
+1779344299318,17327,08 edit,200,,mixed scenario thread group 1-3,text,true,,553,544,3,3,http://your-server-host/api/file/edit,17327,0,0
+1779344289728,37437,09 merge,200,,mixed scenario thread group 1-1,text,true,,555,657,3,3,http://your-server-host/api/file/merge,37437,0,0
+1779344299064,30019,09 merge,200,,mixed scenario thread group 1-2,text,true,,553,657,3,3,http://your-server-host/api/file/merge,30019,0,0
+1779344329084,270,05 text search,200,,mixed scenario thread group 1-2,text,true,,218,423,3,3,http://your-server-host/api/file/search,270,0,1
+1779344327166,4113,07 records,200,,mixed scenario thread group 1-1,text,true,,171369,358,3,3,http://your-server-host/api/record/my,2762,0,1
+1779344331280,755,04 my images,200,,mixed scenario thread group 1-1,text,true,,87532,363,3,3,http://your-server-host/api/file/my-images,713,0,0
+1779344332037,1329,04 my images,200,,mixed scenario thread group 1-1,text,true,,87596,363,3,3,http://your-server-host/api/file/my-images,246,0,0
+1779344333368,27,05 text search,200,,mixed scenario thread group 1-1,text,true,,218,423,3,3,http://your-server-host/api/file/search,27,0,0
+1779344329354,7089,02 upload person image,200,,mixed scenario thread group 1-2,text,true,,369,20388,3,3,http://your-server-host/api/file/upload/image,7089,0,0
+1779344336445,32,07 records,200,,mixed scenario thread group 1-2,text,true,,36300,358,3,3,http://your-server-host/api/record/my,21,0,0
+1779344333396,4328,02 upload person image,200,,mixed scenario thread group 1-1,text,true,,369,20361,3,3,http://your-server-host/api/file/upload/image,4328,0,0
+1779344337726,70,04 my images,200,,mixed scenario thread group 1-1,text,true,,87711,363,3,3,http://your-server-host/api/file/my-images,26,0,0
+1779344337797,921,05 text search,200,,mixed scenario thread group 1-1,text,true,,218,423,3,3,http://your-server-host/api/file/search,921,0,0
+1779344338718,2624,02 upload person image,200,,mixed scenario thread group 1-1,text,true,,369,20385,3,3,http://your-server-host/api/file/upload/image,2624,0,0
+1779344341347,59,04 my images,200,,mixed scenario thread group 1-1,text,true,,87905,363,3,3,http://your-server-host/api/file/my-images,26,0,0
+1779344341407,1791,07 records,200,,mixed scenario thread group 1-1,text,true,,171356,358,3,3,http://your-server-host/api/record/my,690,0,0
+1779344343199,934,05 text search,200,,mixed scenario thread group 1-1,text,true,,218,423,3,3,http://your-server-host/api/file/search,934,0,0
+1779344316646,32926,09 merge,200,,mixed scenario thread group 1-3,text,true,,553,657,3,3,http://your-server-host/api/file/merge,32926,0,0
+1779344344133,7399,02 upload person image,200,,mixed scenario thread group 1-1,text,true,,369,20385,2,2,http://your-server-host/api/file/upload/image,7399,0,0
+1779344336478,19732,08 edit,200,,mixed scenario thread group 1-2,text,true,,553,544,1,1,http://your-server-host/api/file/edit,19732,0,0
+

@@ -1,0 +1,10 @@
+﻿timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1779247144845,132,01 登录认证,200,,冒烟线程组 1-1,text,true,,459,266,1,1,http://your-server-host/api/user/auth,132,0,16
+1779247145536,3591,02 上传人物图,200,,冒烟线程组 1-1,text,true,,369,20388,1,1,http://your-server-host/api/file/upload/image,3591,0,0
+1779247149141,21635,03 上传服装图,200,,冒烟线程组 1-1,text,true,,371,1414766,1,1,http://your-server-host/api/file/upload/image,21634,0,0
+1779247170789,19,04 查询我的图片,200,,冒烟线程组 1-1,text,true,,3606,363,1,1,http://your-server-host/api/file/my-images,19,0,0
+1779247170809,17,05 文搜图,200,,冒烟线程组 1-1,text,true,,218,405,1,1,http://your-server-host/api/file/search,17,0,0
+1779247170826,19791,06 图片编辑,200,,冒烟线程组 1-1,text,true,,555,529,1,1,http://your-server-host/api/file/edit,19791,0,0
+1779247190618,31486,07 图片合并,200,,冒烟线程组 1-1,text,true,,557,639,1,1,http://your-server-host/api/file/merge,31486,0,0
+1779247222106,78,08 查询历史记录,200,,冒烟线程组 1-1,text,true,,10942,358,1,1,http://your-server-host/api/record/my,27,0,1
+

@@ -1,0 +1,7 @@
+api_auto_test/venv/
+api_auto_test/.pytest_cache/
+api_auto_test/__pycache__/
+api_auto_test/.idea/
+api_auto_test/logs/
+api_auto_test/report/
+*.pyc

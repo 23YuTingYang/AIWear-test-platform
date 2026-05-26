@@ -1,0 +1,47 @@
+my_record:
+  - id: record_all
+    name: 查询全部记录
+    auth: yang
+    expect_code: 200
+  - id: record_edit
+    name: 按 edit 查询
+    auth: yang
+    params:
+      action: "edit"
+    expect_code: 200
+    expect_action: "edit"
+  - id: record_merge
+    name: 按 merge 查询
+    auth: yang
+    params:
+      action: "merge"
+    expect_code: 200
+    expect_action: "merge"
+  - id: record_empty_action
+    name: action 为空字符串
+    auth: yang
+    params:
+      action: ""
+    expect_code: 200
+  - id: record_unknown_action
+    name: action 为未知值
+    auth: yang
+    params:
+      action: "delete"
+    expect_code: 200
+    expect_empty: true
+  - id: record_missing_auth
+    name: 缺少 Authorization
+    auth_mode: none
+    expect_code: 400
+    expect_message: "缺少请求头令牌"
+  - id: record_invalid_auth
+    name: Authorization 格式错误
+    auth_mode: invalid_format
+    expect_code: 400
+    expect_message: "请求头令牌格式错误"
+  - id: record_user_isolation
+    name: 用户记录隔离
+    auth: xiao
+    expect_code: 200
+    expect_not_contains_context_key: yang_person_url

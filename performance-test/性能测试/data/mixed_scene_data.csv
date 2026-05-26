@@ -1,0 +1,7 @@
+﻿account,password,personImage,clothImage,searchKeyword
+perf_user_001,your_test_password,sample-images/人物女人.jpg,sample-images/蓝色短袖.png,短袖
+perf_user_002,your_test_password,sample-images/人物男人.jpg,sample-images/红色短袖.jpg,短袖
+perf_user_003,your_test_password,sample-images/人物女人.jpg,sample-images/蓝色短袖.png,蓝色短袖
+perf_user_004,your_test_password,sample-images/人物男人.jpg,sample-images/红色短袖.jpg,红色短袖
+perf_user_005,your_test_password,sample-images/人物女人.jpg,sample-images/红色短袖.jpg,上衣
+
